@@ -7,14 +7,14 @@ const CONFIG = {
   NAV_USE_CUSTOM_MENU: true, // 使用自定义菜单（可支持子菜单，支持自定义分类图标），若为true则显示所有的category分类
 
   // 菜单
-  NAV_MENU_CATEGORY: false, // 显示分类
-  NAV_MENU_TAG: 'false, // 显示标签
-  NAV_MENU_ARCHIVE: false, // 显示归档
-  NAV_MENU_SEARCH: true, // 显示搜索
+  NAV_MENU_CATEGORY: 'false', // 显示分类
+  NAV_MENU_TAG: 'false', // 显示标签
+  NAV_MENU_ARCHIVE: 'false', // 显示归档
+  NAV_MENU_SEARCH: 'true', // 显示搜索
 
   // Widget
   NAV_WIDGET_REVOLVER_MAPS:
     process.env.NEXT_PUBLIC_WIDGET_REVOLVER_MAPS || 'false', // 地图插件
-  NAV_WIDGET_TO_TOP: true // 跳回顶部
+  NAV_WIDGET_TO_TOP: 'true' // 跳回顶部
 }
 export default CONFIG
